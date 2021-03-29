@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CMD=$(1:-all}
+CMD=${1:-all}
 shift
 
 source /opt/mycroft/.venv/bin/activate
